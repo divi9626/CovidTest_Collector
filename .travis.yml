@@ -47,11 +47,8 @@ cache:
 language: generic
 matrix:
   include:
-  - name: "Trusty indigo"
-    dist: trusty
-    env: ROS_DISTRO=indigo
-  - name: "Xenial melodic"
-    dist: xenial
+  - name: "Bionic Beaver"
+    dist: bionic
     env: ROS_DISTRO=melodic
 
 # Configuration variables. All variables are global now, but this can be used to
